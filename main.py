@@ -10,8 +10,7 @@ from disnake.ext import commands
 dotenv.load_dotenv("conf.env") #IT WORKS
 tocken = os.environ.get("tocken")
 bot = commands.Bot( command_prefix=['prefix'], intents=disnake.Intents.all(),status = disnake.Status.idle,
-                    activity = disnake.Activity(type = disnake.ActivityType.listening, name = "инфернальные крики "
-                                                                                          "разрабов"))
+                    activity = disnake.Activity(type = disnake.ActivityType.listening, name = "инфернальные крики разрабов"))
 
 bot.load_extensions(os.path.join('cogs'))
 
