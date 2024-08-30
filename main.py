@@ -1,4 +1,3 @@
-"""бляздец"""
 import os
 # import sys
 import dotenv
@@ -20,6 +19,5 @@ async def ping(inter):
 
 @bot.event
 async def on_ready():
-    """а что тут писать, тут бот запускаеться"""
     print(f"Logged in as {bot.user} (ID: {bot.user.id})\nREAD FILE PYTHON БЛЯТЬ \n ОКЕЙ БЛЯТЬ\nБИМ БИМ БИМ БИМ БАМ БАМ БАМ БУМ БУМ БУМ БУМ \n СУКА")
 bot.run(tocken)
